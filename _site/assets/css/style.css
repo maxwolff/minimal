@@ -236,13 +236,10 @@
   background-color: #f8f8f8; }
 
 body {
-  background-color: #fafafa;
-background-image: url("https://www.transparenttextures.com/patterns/brilliant.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-
+  background-color: #fff;
   padding: 50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #808080;
+  color: #727272;
   font-weight: 400; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -320,23 +317,12 @@ th {
   color: #444; }
 
 img {
-  max-width: 100%; 
-}
-
-.headshot {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    border-radius: 50%;
-}
+  max-width: 100%; }
 
 header {
-  width: 200px;
-  text-align: center;
-  position: absolute;
+  width: 270px;
+  float: left;
+  position: fixed;
   -webkit-font-smoothing: subpixel-antialiased; }
 
 header ul {
@@ -364,6 +350,7 @@ header ul a {
   line-height: 1;
   font-size: 11px;
   color: #676767;
+  display: block;
   text-align: center;
   padding-top: 6px;
   height: 34px; }
