@@ -2,11 +2,17 @@
 layout: default
 ---
 
+## [](#header-3)dappTX (in progress)
+[code](https://github.com/maxwolff/dappTx){: style="color:blue; font-size: 120%; text-align: left;"}
+
+Visualizes transaction volume of biggest ethereum smart contracts. Pulls data from Infura API, chron job populates a Postgres DB, Node/Express web app exposes the data with graphs on the front end.
+- Supported as an open-source project by Gitcoin.co
+
 ## [](#header-3)PAD Piper
 [code](https://github.com/maxwolff/vasctrac){: style="color:blue; font-size: 120%; text-align: left;"}
 
 Winner of the Vasctrac Data Challenge at Health ++ 2017. We worked with a vascular health research group focusing on Peripheral Arterial Disease to interpret raw sensor data from a 6 minute walking test (accelerometer data from iphone, no gyroscope). 
-- Used DSP methods to create an 85% accurate step counter 
+- Used DSP methods to create an 92% accurate step counter (iPhone is 94%)
 - Built predictors for Ankle Brachial Index and distance walked
 
 ## [](#header-3)Heap Allocator
